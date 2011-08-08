@@ -1,0 +1,318 @@
+a {cursor: pointer;}
+
+body
+{
+background: #003399;
+text-align: center;
+font-family: verdana;
+}
+
+h1																												/* subtitle */
+{
+text-align: left;
+font-size: 28pt;
+text-decoration: underline;
+}
+
+h2																											/* Navbar text */
+{
+color: #000000;
+font-size: 16pt;
+}
+
+h3																												/* site footer */
+{
+font-size: 8pt;
+color: black;
+}
+
+h4
+{
+text-align: center;
+font-size: 11pt;
+position: relative; top: -20px;
+}
+
+h5																												/* About page headings */
+{
+font-size: 8pt;
+position: relative; top: -10px;
+}
+
+h6
+{
+font-size: 8pt;
+text-align: right;
+position: relative; top: -34px;
+}
+
+p																												/* for text at bottom */
+{
+text-indent: 20px;
+font-size: 12pt;z
+}
+
+.all
+{
+margin: 0 auto;
+background: #dadbeb;
+border: 0px gray solid;
+height: auto;  width: 992px;
+position: relative; top: -15px; left: 0px;
+}
+
+   /* the gradient part of all's background */
+   .gradient
+   {
+   background-image: url('images/background.jpg');
+   height: 1400px; width: 992px;
+   position: absolute; top: 0px; left: 0px;
+   }
+
+   .topbar
+   {
+   border: 0px red solid;
+   background-image: url('images/title.jpg');
+   height: 380px; width: 100%;
+   position: relative; top: 0px; left: 0px;
+   }
+
+      .navbar
+      {
+      border: 0px green solid;
+      height: 80px; width: 100%;
+      position: absolute; bottom: 0px; left: 0px;
+      }
+    
+    /* holds the title of each page above the content div */
+   .subtitle
+   {
+   border: 0px green solid;
+   background: transparent;
+   text-align: center;
+   height: 50px; width: 100%;
+   position: relative; top: 10px; left: 0px;
+   }
+
+   .content
+   {
+   border: 0px blue solid;
+   text-align: left;
+   min-height: 800px;
+   background-image: url('images/contentMid.jpg');
+   padding: 32px;
+   height: auto; width: 736px;
+   position: relative; top: 0px; left: 100px;
+   }
+   
+      /* holds the top rounded edge image in the content div */
+      .topBack
+      {
+      background-image: url('images/contentTop.jpg');
+      height: 88px; width: 800px;
+      position: absolute; top: 0px; left: 0px;
+      }
+      
+      /* holds the top rounded edge image in the content div */
+      .botBack
+      {
+      border: 0px red solid;
+      background-image: url('images/contentBot.jpg');
+      height: 88px; width: 800px;
+      position: absolute; bottom: 0px; left: 0px;
+      }
+   
+   .bottombar
+   {
+   border: 0px black solid;
+   background: #dadbeb;
+   height: 64px; width: 992px;
+   position: relative; top: 16px; left: 0px;
+   text-align: center;
+   }
+   
+/* Faci OC table row */
+tr.dark
+{
+	background: #e3e3e3;
+}   
+
+/* navbar buttons */
+ul.nav  
+{
+list-style:none;
+padding:0;
+margin: 0 0 0 0;
+width:1001px
+}
+
+ul.nav li
+{
+display: inline;
+}
+
+ul.nav li.home a
+{
+text-align: center;
+background: url('images/home_over.jpg');
+color: #FFFFFF;
+border-left: 0px transparent solid;
+float: left;
+width: 90px; height: 91px;
+}
+ul.nav li.home a:link, 
+ul.nav li.home a:visited {background: url('images/home.jpg');}
+ul.nav li.home a:hover,
+ul.nav li.home a:focus {background: url('images/home_over.jpg');}
+
+ul.nav li.register a
+{
+text-align: center;
+background: url('images/register_over.jpg');
+border-left: 0px transparent solid;
+float: left;
+width: 90px; height: 91px;
+}
+ul.nav li.register a:link, 
+ul.nav li.register a:visited {background: url('images/register.jpg');}
+ul.nav li.register a:hover,
+ul.nav li.register a:focus {background: url('images/register_over.jpg');}
+
+ul.nav li.location a
+{
+text-align: center;
+background: url('images/location_over.jpg');
+color: #FFFFFF;
+border-left: 0px transparent solid;
+float: left;
+width: 90px; height: 91px;
+}
+ul.nav li.location a:link, 
+ul.nav li.location a:visited {background: url('images/location.jpg');}
+ul.nav li.location a:hover,
+ul.nav li.location a:focus {background: url('images/location_over.jpg');}
+
+ul.nav li.faci a
+{
+text-align: center;
+background: url('images/faci_over.jpg');
+color: #FFFFFF;
+border-left: 0px transparent solid;
+float: left;
+width: 90px; height: 91px;
+}
+ul.nav li.faci a:link, 
+ul.nav li.faci a:visited {background: url('images/faci.jpg');}
+ul.nav li.faci a:hover,
+ul.nav li.faci a:focus {background: url('images/faci_over.jpg');}
+
+ul.nav li.themes a
+{
+background: url('images/themenights_over.jpg');
+border-left: 0px transparent solid;
+float: left;
+width: 90px; height: 91px;
+}
+ul.nav li.themes a:link, 
+ul.nav li.themes a:visited {background: url('images/themenights.jpg');}
+ul.nav li.themes a:hover,
+ul.nav li.themes a:focus {background: url('images/themenights_over.jpg');}
+
+ul.nav li.sponsors a
+{
+text-align: center;
+background: url('images/sponsors_over.jpg');
+color: #FFFFFF;
+border-left: 0px transparent solid;
+float: left;
+width: 90px; height: 91px;
+}
+ul.nav li.sponsors a:link, 
+ul.nav li.sponsors a:visited {background: url('images/sponsors.jpg');}
+ul.nav li.sponsors a:hover,
+ul.nav li.sponsors a:focus {background: url('images/sponsors_over.jpg');}
+
+ul.nav li.alumni a
+{
+text-align: center;
+background: url('images/alumni_over.jpg');
+color: #FFFFFF;
+border-left: 0px transparent solid;
+float: left;
+width: 90px; height: 91px;
+text-decoration: none;
+font-weight: none;
+font-size: 12pt;
+}
+ul.nav li.alumni a:link, 
+ul.nav li.alumni a:visited {background: url('images/alumni.jpg');}
+ul.nav li.alumni a:hover,
+ul.nav li.alumni a:focus {background: url('images/alumni_over.jpg');}
+
+ul.nav li.alcohol a
+{
+text-align: center;
+background: url('images/alcoholpolicy_over.jpg');
+color: #FFFFFF;
+border-left: 0px transparent solid;
+float: left;
+width: 90px; height: 91px;
+}
+ul.nav li.alcohol a:link, 
+ul.nav li.alcohol a:visited {background: url('images/alcoholpolicy.jpg');}
+ul.nav li.alcohol a:hover,
+ul.nav li.alcohol a:focus {background: url('images/alcoholpolicy_over.jpg');}
+
+ul.nav li.study a
+{
+text-align: center;
+background: url('images/studytour_over.jpg');
+color: #FFFFFF;
+border-left: 0px transparent solid;
+float: left;
+width: 90px; height: 91px;
+}
+ul.nav li.study a:link, 
+ul.nav li.study a:visited {background: url('images/studytour.jpg');}
+ul.nav li.study a:hover,
+ul.nav li.study a:focus {background: url('images/studytour_over.jpg');}
+
+ul.nav li.sex a
+{
+text-align: center;
+background: url('images/sexualpolicy_over.jpg');
+color: #FFFFFF;
+border-left: 0px transparent solid;
+float: left;
+width: 90px; height: 91px;
+}
+ul.nav li.sex a:link, 
+ul.nav li.sex a:visited {background: url('images/sexualpolicy.jpg');}
+ul.nav li.sex a:hover,
+ul.nav li.sex a:focus {background: url('images/sexualpolicy_over.jpg');}
+
+ul.nav li.contact a
+{
+text-align: center;
+background: url('images/contact_over.jpg');
+color: #FFFFFF;
+border-left: 0px transparent solid;
+float: left;
+width: 90px; height: 91px;
+}
+ul.nav li.contact a:link, 
+ul.nav li.contact a:visited {background: url('images/contact.jpg');}
+ul.nav li.contact a:hover,
+ul.nav li.contact a:focus {background: url('images/contact_over.jpg');}
+
+
+
+
+
+
+
+
+
+
+
+
